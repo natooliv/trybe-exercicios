@@ -1,30 +1,48 @@
 @charset "UFT-8";
-
-
-
 header {
-    background-color: #ebc390;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4bf90;
+    border-bottom: 10px solid rgb(95, 78, 78);
+    padding: 10px 20px;
+
 }
 nav {
     display: inline-block;
-    background-color: rgb(180, 109, 51);
+    background-color: #e4bf90f;
     text-align: right;
 }
 
 a {
     display: inline-flex;
     align-items: center;
-    color:#FFF;
+    color:rgb(95, 78, 78);
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"PrStart", sans-serif;
     font-weight: 500px;
     text-decoration:none;
     margin-right: 30px;
 }
 a::before{
     content: "";
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(226, 238, 233);
     width: 10px;
     height: 10px;
     margin-right: 10px;
+}
+@font-face {
+    font-family: PrStart;
+    src: url("PrStart.ttf")
+}
+h1{
+    font-family:"PrStart", sans-serif;
+    font-size: 40px;
+    color: blanchedalmond;
+    text-shadow: 04px 04px 0 #000;
+}
+h2{
+    font-size:30px ;
+    font-family: "PrStart", sans-serif;
+    text-shadow: 4px 4px 0 #000
+    color: #FFF;
 }
