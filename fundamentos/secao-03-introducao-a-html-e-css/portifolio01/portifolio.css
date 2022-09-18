@@ -12,6 +12,7 @@ nav {
     display: inline-block;
     background-color: #e4bf90f;
     text-align: right;
+    padding: auto;
 }
 a {
     display: inline-flex;
@@ -45,9 +46,9 @@ h1{
 h2{
     font-size:30px ;
     font-family: "PrStart", sans-serif;
-    text-shadow: 5px 5px 0 #000
-    color:#FFF;
-    text-align:inherit;
+    text-shadow: 5px 5px 0  #000;
+    color: #e4bf90;
+    text-align:center;
 }
 #box{
     background-color:  #3a4042;
@@ -72,14 +73,56 @@ h2{
 }
 .banner{
     box-sizing: border-box;
-    background-image: url(./imagens/Natalia\ de\ Oliveira.png);
+    background-image: url(./imagens/Natalia\ de\ Oliveira.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 695px;
+    height: 910px;
     border-bottom: 5px solid rgb(185, 153, 153);
     padding-top: 115px;
     padding-left: 90px;
+    display: flex;
+    width: 1885px;
+}
+.banner .wapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
 }
 .banner .box{
     margin-bottom: 40px;
+}
+.banner .navigation{
+    display:flex ;
+    justify-content: space-around;
+}
+.section{
+    background-color: #a80f0f;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid rgb(185, 153, 153);
+}
+.habilidades-tec{
+    font-family: "PrStart",sans-serif;
+    font-size:25px;
+    color:#e4bf90;
+    display: flex;
+}
+.habilidades-tec .icone{
+    margin-right: 25px;
+}
+.main.title-second {
+    color:#e4bf90;
+    text-shadow: none;
+    text-align: center;
+}
+.progress-barra {
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 5px solid #000;
+    height: 20px;
+}
+.habilidades-tec .rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
