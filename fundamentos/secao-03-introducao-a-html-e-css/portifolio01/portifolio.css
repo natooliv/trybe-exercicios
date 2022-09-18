@@ -3,10 +3,23 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #a80f0fe1;
-    border-bottom: 10px solid rgb(185, 153, 153);
+    background-color: #f9f7dc;
+    border-bottom: 10px solid rgb(0, 0, 0);
     padding: 10px 20px;
-
+}
+.main-textoalternativo{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
+    
+}
+.main-textoalternativo2{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
+    text-align: right;
 }
 nav {
     display: inline-block;
@@ -26,7 +39,7 @@ a {
 }
 a::before{
     content: "";
-    background-color: rgb(226, 238, 233);
+    background-color:#f9f7dc;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -39,7 +52,7 @@ h1{
     font-family:"PrStart", sans-serif;
     font-size: 40px;
     color: blanchedalmond;
-    text-shadow: 04px 04px 0 #000;
+    text-shadow: 04px 04px 0 rgb(175, 104, 104);
     text-align: center;
 
 }
@@ -47,21 +60,21 @@ h2{
     font-size: 30px ;
     font-family: "PrStart", sans-serif;
     text-shadow: 5px 5px 0  #000;
-    color: #e4bf90;
+    color: #8f6262;
     text-align:center;
 }
 #box{
-    background-color: #2e2626e1;
+    background-color: #0f0808e1;
     width: 660px;
     height: 45px;
-    box-shadow: 30 px 30 px 0 #000;
+    box-shadow: 30 px 30 px 0 rgb(3, 3, 3);
     text-align: center;
     padding: 30px;
 }
 .button {
     display: inline-block;
     background-color: #e4bf90;
-    box-shadow: 5px 5px 0 #000;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0);
     padding: 18px 20px;
     margin-right: 0;
     font-family: "PrStart";
@@ -77,7 +90,7 @@ h2{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 900px;
-    border-bottom: 5px solid rgb(165, 127, 127);
+    border-bottom: 5px solid rgb(0, 0, 0);;
     padding-top: 110px;
     padding-left: 90px;
     display: flex;
@@ -96,7 +109,7 @@ h2{
     justify-content: space-around;
 }
 .section{
-    background-color: #4d3d3de1;
+    background-color:#f9f7dc;
     padding-top: 5px;
     padding-bottom: 35px;
     border-bottom: 10px solid ;
@@ -105,21 +118,21 @@ h2{
 .habilidades-tec{
     font-family: "PrStart",sans-serif;
     font: size 25px;px;
-    color:#e4bf90;
+    color:#6d5e4a;
     display: flex;
 }
 .habilidades-tec .icone{
     margin-right: 25px;
 }
 .main.title-second {
-    color:#e4bf90;
+    color:#363430;
     text-shadow: none;
     text-align: center;
 }
 .progress-barra {
     box-sizing: border-box;
     background-color: #FFF;
-    border: 5px solid #000;
+    border: 5px solid rgb(0, 0, 0);
     height: 20px;
 }
 .habilidades-tec .rigth{
@@ -138,5 +151,22 @@ h2{
     justify-content:center;
     width: 200px;
     height: 200px;
-    box-shadow: 10px 10px 0 rgb(224, 190, 117);
+    box-shadow: 10px 10px 0 rgb(235, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.section.-bgBlack{
+    background-color:#f9f7dc;
+}
+.section.-bdFirst{
+    border-color: rgb(0, 0, 0);;
+}
+.wrapper-blogs{
+    display: flex;
+    justify-content: center;
+}
+.main-sobre{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
 }
