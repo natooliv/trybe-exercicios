@@ -3,16 +3,16 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #e4bf90;
+    background-color: #a80f0fe1;
     border-bottom: 10px solid rgb(185, 153, 153);
     padding: 10px 20px;
 
 }
 nav {
     display: inline-block;
-    background-color: #e4bf90f;
     text-align: right;
     padding: auto;
+
 }
 a {
     display: inline-flex;
@@ -44,17 +44,17 @@ h1{
 
 }
 h2{
-    font-size:30px ;
+    font-size: 30px ;
     font-family: "PrStart", sans-serif;
     text-shadow: 5px 5px 0  #000;
     color: #e4bf90;
     text-align:center;
 }
 #box{
-    background-color:  #3a4042;
+    background-color: #2e2626e1;
     width: 660px;
     height: 45px;
-    box-shadow: 20 px 20 px 0 #000;
+    box-shadow: 30 px 30 px 0 #000;
     text-align: center;
     padding: 30px;
 }
@@ -76,12 +76,12 @@ h2{
     background-image: url(./imagens/Natalia\ de\ Oliveira.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 910px;
-    border-bottom: 5px solid rgb(185, 153, 153);
-    padding-top: 115px;
+    height: 900px;
+    border-bottom: 5px solid rgb(165, 127, 127);
+    padding-top: 110px;
     padding-left: 90px;
     display: flex;
-    width: 1885px;
+    width: 1880px;
 }
 .banner .wapper{
     display: flex;
@@ -96,14 +96,15 @@ h2{
     justify-content: space-around;
 }
 .section{
-    background-color: #a80f0f;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    border-bottom: 10px solid rgb(185, 153, 153);
+    background-color: #4d3d3de1;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    border-bottom: 10px solid ;
+    padding-inline: 5px;
 }
 .habilidades-tec{
     font-family: "PrStart",sans-serif;
-    font-size:25px;
+    font: size 25px;px;
     color:#e4bf90;
     display: flex;
 }
@@ -122,7 +123,20 @@ h2{
     height: 20px;
 }
 .habilidades-tec .rigth{
-    display: flex;
+    display:flow-root
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:center;
+}
+.wrapper-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs-gosto{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 0 rgb(224, 190, 117);
 }
