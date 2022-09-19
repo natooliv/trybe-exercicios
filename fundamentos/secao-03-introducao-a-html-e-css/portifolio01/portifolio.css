@@ -1,18 +1,32 @@
 @charset "UFT-8";
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #e4bf90;
-    border-bottom: 10px solid rgb(95, 78, 78);
+    background-color: #f9f7dc;
+    border-bottom: 10px solid rgb(0, 0, 0);
     padding: 10px 20px;
-
+}
+.main-textoalternativo{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
+    
+}
+.main-textoalternativo2{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
+    text-align: right;
 }
 nav {
     display: inline-block;
-    background-color: #e4bf90f;
     text-align: right;
-}
+    padding: auto;
 
+}
 a {
     display: inline-flex;
     align-items: center;
@@ -25,7 +39,7 @@ a {
 }
 a::before{
     content: "";
-    background-color: rgb(226, 238, 233);
+    background-color:#f9f7dc;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -38,11 +52,129 @@ h1{
     font-family:"PrStart", sans-serif;
     font-size: 40px;
     color: blanchedalmond;
-    text-shadow: 04px 04px 0 #000;
+    text-shadow: 04px 04px 0 rgb(175, 104, 104);
+    text-align: center;
+
 }
 h2{
-    font-size:30px ;
+    font-size: 30px ;
     font-family: "PrStart", sans-serif;
-    text-shadow: 4px 4px 0 #000
-    color: #FFF;
+    text-shadow: 5px 5px 0  #000;
+    color: #8f6262;
+    text-align:center;
+}
+#box{
+    background-color: #0f0808e1;
+    width: 660px;
+    height: 45px;
+    box-shadow: 30 px 30 px 0 rgb(3, 3, 3);
+    text-align: center;
+    padding: 30px;
+}
+.button {
+    display: inline-block;
+    background-color: #e4bf90;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0);
+    padding: 18px 20px;
+    margin-right: 0;
+    font-family: "PrStart";
+    font-size: 20px;
+    transition: transform 100ms cubic-bezier(.45,..97,..68,2,48) ;
+}
+.button:hover {
+    transform: scale(1.08);
+}
+.banner{
+    box-sizing: border-box;
+    background-image: url(./imagens/Natalia\ de\ Oliveira.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+    border-bottom: 5px solid rgb(0, 0, 0);;
+    padding-top: 110px;
+    padding-left: 90px;
+    display: flex;
+    width: 1880px;
+}
+.banner .wapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+.banner .box{
+    margin-bottom: 40px;
+}
+.banner .navigation{
+    display:flex ;
+    justify-content: space-around;
+}
+.section{
+    background-color:#f9f7dc;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    border-bottom: 10px solid ;
+    padding-inline: 5px;
+}
+.habilidades-tec{
+    font-family: "PrStart",sans-serif;
+    font: size 25px;px;
+    color:#6d5e4a;
+    display: flex;
+}
+.habilidades-tec .icone{
+    margin-right: 25px;
+}
+.main.title-second {
+    color:#363430;
+    text-shadow: none;
+    text-align: center;
+}
+.progress-barra {
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 5px solid rgb(0, 0, 0);
+    height: 20px;
+}
+.habilidades-tec .rigth{
+    display:flow-root
+    flex-direction: column;
+    justify-content:center;
+}
+.wrapper-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs-gosto{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 0 rgb(235, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.section.-bgBlack{
+    background-color:#f9f7dc;
+}
+.section.-bdFirst{
+    border-color: rgb(0, 0, 0);;
+}
+.wrapper-blogs{
+    display: flex;
+    justify-content: center;
+}
+.main-sobre{
+    color:  #975a29;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.4;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:  #f9f7dc;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
 }
