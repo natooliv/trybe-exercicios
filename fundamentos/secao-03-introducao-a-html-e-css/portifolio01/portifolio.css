@@ -170,3 +170,11 @@ h2{
     font-weight: 300px;
     line-height: 1.4;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:  #f9f7dc;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
