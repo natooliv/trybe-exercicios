@@ -137,7 +137,7 @@ h2{
 }
 .habilidades-tec .rigth{
     display:flow-root
-    flex-direction: column;
+         flex-direction: column;
     justify-content:center;
 }
 .wrapper-habilidades{
