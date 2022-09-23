@@ -137,7 +137,11 @@ h2{
 }
 .habilidades-tec .rigth{
     display:flow-root
+<<<<<<< HEAD
          flex-direction: column;
+=======
+    flex-direction: column;
+>>>>>>> portifolio1
     justify-content:center;
 }
 .wrapper-habilidades{
