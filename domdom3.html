@@ -1,0 +1,35 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+<script>
+ // Crie um irmão para elementoOndeVoceEsta.
+ const pai  = document.getElementById('pai');
+ const irmão = document.createElement('section');
+ irmaoOndeVoceEsta.id =  ('irmaoOndeVoceEsta');
+ pai.appendChild('irmaoOndeVoceEsta')
+ //Crie um filho para elementoOndeVoceEsta
+ const elementoOndeVoceEsta =  document.getElementById('elementoOndeVoceEsta');
+ const filho =  document.createElement('section');
+ filhoOndeVoceEsta.id =  ('filhoOndeVoceEsta');
+  elementoOndeVoceEsta.appendChild('filhoOndeVoceESta');
+  // Crie um filho para primeiroFilhoDoFilho.
+  const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+  const filhote =  document.createElement('section');
+  filhodoFilhodoFilho.id = ('filhodoFilhodoFilho');
+  primeiroFilhoDoFilho.appendChild('filhodoFilhodoFilho');
+  //A partir desse filho criado, acesse terceiroFilho
+  const terceiroFilho = 'primeiroFilhoDoFilho'
+  .parentElement // primeiroFilhoDoFilho
+  .parentElement // elementoOndeVoceEsta
+  .nextElementSibling; // terceiroFilho
+
+</script>

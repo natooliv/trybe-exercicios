@@ -1,0 +1,30 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+<script>
+  // Acesse o elemento elementoOndeVoceEsta.
+  const elementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+  // Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele
+  const pai = elementoOndeVoceEsta.parentElement; // parentElemente acesessa o elemento pai
+  pai.style.color = "red";
+  // Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+  const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+  primeiroFilhodoFilho.innerText = "Oi";
+  //Acesse o primeiroFilho a partir de pai.
+  const primeiroFilho =  pai.firstElementChild;
+  //Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta
+  const elementoOndeVoceEsta =  elementoOndeVoceEsta.previousSibling;
+  //Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+  const atencao = elementoOndeVoceEsta.nextSibling;
+  // // Agora acesse o terceiroFilho a partir de pai.
+  const terceiroFilho =  pai.lastElementChild.previousElementSibling;
+</script>

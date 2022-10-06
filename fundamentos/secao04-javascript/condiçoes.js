@@ -34,3 +34,10 @@ else if (desafio <= 80 && desafio >= 60){
 else{
   console.log("Você foi reprovado!")
 }
+
+
+
+function remainingMinutesInOven(actualMinutesInOven) {
+  const minutes = 40;
+    return(minutes)
+}
