@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="pikaday.js"></script>">>
+</head>
+<form>
+  <h1 class="display-4 text-muted">FORMULARIO</h1>
+  <form action="" method="get" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for=""> Nome Completo:
+         <input class= "form-control" type="text" name="nome" id="nome-completo" placeholder="Digite seu Nome" required>
+      </label>
+  </div>
+    <br>
+    <div class="form-group">
+      <label for=""> E-mail::
+        <input class= "form-control"type="text" name="email" id="input email" placeholder="Digite seu email" required>
+      </label>
+    </div>
+     <br>
+     <div class="form-group">
+     <label for="">Estado onde você mora:
+        <select class="form-control" name="estado" id="input-estado">
+          <option value="sp" selected> São Paulo</option>
+          <option value="mg">Minas Gerais</option>
+        </select>
+     </label>
+    </div>
+     <br>
+    <div class="form-group">
+     <p>Selecione sua foto</p>
+     <input class= "form-control btn btn-warning"type="file" name="foto" id="foto-perfil">
+      <br>
+    </div>
+    <div class="form-group">
+      <p>Comidas favoritas</p>
+      <label for='comida-1'>
+        <input class= "form-control"type="radio" id="comida-1" name="comida-favorita" value="pizza" checked>pizza
+     </label>
+      <label for='comida-2'>
+        <input class= "form-control"type="radio" id="comida-2" name="comida-favorita" value="sorvete"checked>sorvete
+      </label>
+      <label for='comida-2'>
+       <input class= "form-control"type="radio" id="comida-12" name="comida-favorita" value="hamburguer"checked>Hamburger
+      </label>
+    </div>
+  <br>
+  <div class="form-group">
+    <p>Escreva algo sobre você</p>
+    <textarea  class="form-control"name="sobre-mim" id="text-area1" cols="30" rows="5"></textarea>
+    <br>
+      <p>Digite sua senha:</p>
+      <label for="input-senha">
+       <input class= "form-control"type="password" name="senha" id="inpit-senha"required>
+    </label>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="checkbox-noticias">
+   <input class= "form-control" type="checkbox" name="promocoes" id="checkbox-noticias">Deseja receber noticias e promoções?</label>
+    <br>
+  </div>
+  <div class="form-group">
+    <p>Possivel Data:</p>
+    <label for="datepicker">
+   <input type="text" name="promocoes" id="datepicker">Deseja receber noticias e promoções?</label>
+    <br>
+  </div>
+ <button type="submit" class="btn btn-success"> Enviar formulario</button>
+  
+</form>
+</body>
+</html>
