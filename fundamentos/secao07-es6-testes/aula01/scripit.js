@@ -54,7 +54,7 @@
 // testingScope(true);
 
 const testingScope = (escopo) =>{// arrow function
-  if(escopo === true) {
+  if(escopo) {
     let ifScope = 'Não devo ser utilizada fora do meu escopo (if)'; // usando let para não vazar no escopo
     ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
     console.log(ifScope);
