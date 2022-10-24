@@ -1,0 +1,154 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="images/trybewarts-header-logo.svg"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form action="" class="trybewarts-login" method="GET">
+        <input id="email" type="email" name="email" placeholder="Email" />
+        <input id="senha" type="password" name="password" placeholder="Senha" />
+        <button id="botaoEntrar" type="submit">Entrar</button>
+      </form>
+    </header>
+    <main>
+      <div class="new-form">
+        <div id="nomeCompleto"></div>
+        <div id="emailFormNovo"></div>
+        <div id="casa"></div>
+        <div id="familia"></div>
+        <div id="materias"></div>
+        <div id="avaliacao"></div>
+        <div id="comments"></div>
+      </div>
+      <form id="evaluation-form">
+        <h2>Formulário de Avaliação</h2>
+        <div id="parte1">
+          <input type="text" id="input-name" placeholder="Nome" />
+          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          <label>
+            <input type="email" name="email" id="input-email" placeholder="Email" />
+            <select name="input-house" id="house" required>
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </label>
+        </div>
+        <section id="div-lado-a-lado">
+          <div id="parte2">
+              <p id="label-family">Qual sua família?</p>
+              <label>
+                <div>
+                  <input
+                  class="family"
+                  type="radio"
+                  name="family"
+                  id="frontend"
+                  value="Frontend"
+                  />Frontend
+                </div>
+              </label>
+              <label>
+                <div>
+                  <input
+                  class="family"
+                  type="radio"
+                  name="family"
+                  id="backend"
+                  value="Backend"
+                  />Backend
+                </div>
+              </label>
+              <label>
+                  <div>
+                  <input
+                  class="family"
+                  type="radio"
+                  name="family"
+                  id="fullstack"
+                  value="FullStack"
+                  />Fullstack
+                  </div>
+              </label>
+          </div>            
+          <div id="parte3">
+              <label id="label-content"
+                    >Qual conteúdo você está com mais vontade de aprender?
+              </label>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="HoFs" />HoFs
+              </div>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="Jest" />Jest
+              </div>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="Promises" />Promises
+              </div>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="React" />React
+              </div>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="SQL" />SQL
+              </div>
+              <div>
+                  <input name="content" class="subject subject2" type="checkbox" value="Python" />Python
+              </div>
+          </div>
+        </section>
+        <div id="parte4">
+          <label>
+            <p id="label-rate">Como você avalia a Trybewarts?</p>
+          </label>
+          <input class="rate" type="radio" name="rate" value="1" />1
+          <input class="rate" type="radio" name="rate" value="2" />2
+          <input class="rate" type="radio" name="rate" value="3" />3
+          <input class="rate" type="radio" name="rate" value="4" />4
+          <input class="rate" type="radio" name="rate" value="5" />5
+          <input class="rate" type="radio" name="rate" value="6" />6
+          <input class="rate" type="radio" name="rate" value="7" />7
+          <input class="rate" type="radio" name="rate" value="8" />8
+          <input class="rate" type="radio" name="rate" value="9" />9
+          <input class="rate" type="radio" name="rate" value="10" />10
+        </div>
+        <div id="parte5">
+            <label class="textarea">
+              <p>Deixe seu comentário:</p>
+              <textarea id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+              <span id="counter">500</span>
+            </label>
+        </div>
+        <div id="parte6">
+            <label id="label-infos">
+                Você concorda com o uso das informações acima?
+                <input class="subject" type="checkbox" id="agreement" />
+            </label>
+        </div>
+        <button disabled type="submit" id="submit-btn">Enviar</button>
+      </form>
+
+      <div id=parte7>
+      <img
+        id="trybewarts-forms-logo"
+        src="images/trybewarts-colored.svg"
+        alt=""
+      />
+      </div>
+    </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

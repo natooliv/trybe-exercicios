@@ -1,0 +1,60 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+}
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url('assets/background.webp');
+  background-size: cover;
+  height: 100vh; /* ?  */
+  color: #060505;
+
+#btn-login {
+  display: flex;
+
+}
+
+.trybewarts-login {
+  display: flex;
+
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  display: flex;
+  align-content: space-between;
+}
+
+#dados-pessoais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: start;
+}
+
+.radio-family {
+  display: flex;
+  flex-direction: column;
+}
