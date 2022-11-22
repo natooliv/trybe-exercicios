@@ -9,6 +9,7 @@ module.exports = {
   ],
   overrides: [
   ],
+  parse: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -17,5 +18,6 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/jsx-filename-extension":off
   },
 };
