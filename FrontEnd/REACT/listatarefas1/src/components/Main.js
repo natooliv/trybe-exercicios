@@ -1,8 +1,13 @@
-import React, { Component } from "react";
-import  './Main.css';
+import React, { Component } from 'react';
+
+import './Main.css'
+
 export default class Main extends Component{
   state = {
     novaTarefa:'',
+    tarefa:[
+      
+    ]
   }
 
   handleChange = (e) => {

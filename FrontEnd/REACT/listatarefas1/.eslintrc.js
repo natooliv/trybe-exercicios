@@ -3,16 +3,30 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
-  overrides: [],
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
-  plugins: ["react"],
+  overrides: [
+  ],
+  parser:'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    ecmaFeatures:{
+      "jsx":true,
+    }
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+  ],
   rules: {
-    "react/jsx-filename-extesions":off
-    "react/state-in-constructor": off
+    "react/jsx-filename-extension": 0,
+    "react/state-in-constructor": 0,
+    "react/forbid-prop-types": 0,
   },
 };
