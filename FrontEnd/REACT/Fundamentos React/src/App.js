@@ -1,12 +1,13 @@
+
 import './App.css';
 import Condicional from './components/Condicional';
 
 function App() {
   return (
     <div className="App">
-      <h1>Renderizando Condicional</h1>
-      <Condicional />
-
+     <h1>Renderizando Condicional</h1>
+     <Condicional />
+     
     </div>
   );
 }
