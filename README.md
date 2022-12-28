@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Rafael Perdigão Melo Castro](https://www.linkedin.com/in/rafael-permec/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Natalia Francielle Pereira de Oliveira](https://linkedin.com/in/nataliafpoliv/)_ enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, dedicada a contribuir para um mundo melhor!"_
 
